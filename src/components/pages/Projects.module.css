@@ -1,0 +1,31 @@
+.container {
+  min-height: 30rem;
+
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.title_container h1 {
+  font-size: 14px;
+}
+
+.projects_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+ 
+
+
+@media (min-width: 700px) {
+  .title_container h1 {
+    font-size: 30px;
+  }
+}
